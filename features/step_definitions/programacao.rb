@@ -5,8 +5,10 @@ Dado('que estou na página de programacao') do
 end
 
 Quando('clicar na programação atual') do
+  sleep 3
   @title = @programacaoPage.titleProgramacaoAtual.text
   @programacaoPage.abrirProgramacaoAtual
+  sleep 3
 end
 
 Então('o nome da programação atual é exibida') do

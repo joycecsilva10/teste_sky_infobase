@@ -24,4 +24,4 @@ Testes executados no ambiente Linux.
   `cucumber DRIVER=chrome_headless'
 
 
-
+Relatório de execução no momento da entrega:
