@@ -1,0 +1,3 @@
+default: -p dev --publish --format pretty
+dev: ENV=dev
+pretty: --format pretty
